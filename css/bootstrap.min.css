@@ -19,6 +19,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #a2c0be;
+  --primary2: #53db53;
   --secondary: #6c757d;
   --success: #71bc42;
   --info: #17a2b8;
@@ -483,6 +484,16 @@ mark,
   height: auto;
 }
 
+.img-fluid-main {
+  max-width: 200%;
+  height: auto;
+  padding-bottom: 35px;
+  padding-right: 55px;
+}
+.main {
+  padding-top: 3rem;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -553,6 +564,10 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.container-last {
+  padding-bottom: 15px;
 }
 
 @media (min-width: 576px) {
@@ -7002,7 +7017,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #f2f2f2 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
