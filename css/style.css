@@ -2219,5 +2219,13 @@ figure figcaption {
 }
 
 .about_us_img{
-  filter: grayscale(20%);
+  filter: grayscale(35%);
+}
+
+.rotateimg180 {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
