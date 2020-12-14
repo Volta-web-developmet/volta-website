@@ -1900,11 +1900,11 @@ figure figcaption {
 .trainer:hover figure:before {
   top: 10px;
   left: 10px;
-  background: #405a58; }
+  background: #a9b4ba; }
 
 .trainer h3 {
   font-size: 1.3rem;
-  color: #405a58;
+  color: #000000;
   margin-bottom: 1.3rem; }
 
 .trainer .ul-social-circle li a {
@@ -2219,7 +2219,15 @@ figure figcaption {
 }
 
 .about_us_img{
-  filter: grayscale(35%);
+  filter: grayscale(55%);
+}
+
+.developer_img{
+  filter: grayscale(15%);
+}
+
+.developer_img1{
+  filter: grayscale(5%);
 }
 
 .rotateimg180 {
